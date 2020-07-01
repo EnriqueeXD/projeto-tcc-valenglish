@@ -1,13 +1,11 @@
 .navbar1{
   background-image: url(https://img.freepik.com/vetores-gratis/lindo-fundo-aquarela_62951-42.jpg?size=626&ext=jpg);
+ 
   border-style: solid;
   border-radius: 10px;
 
 };
 
-.carrossel{
-  
-};
 .textoJustificado{
   text-align: justify;
 }
@@ -181,11 +179,25 @@
   background-color:#2bffd4;
   border-radius:20px;
 }
+.lcordiv{
+  margin-top:4%;
+  margin-bottom:-2%;
+  width:10px;
+  background-color:#2bffd4;
+  border-radius:20px;
+}
 
 .topicos{
   
   font-size:20px;
   font-family: 'Righteous', cursive;
+  margin-left:2%;
+}
+.ltopicos{
+  
+  font-size:20px;
+  font-family: 'Righteous', cursive;
+  margin-top:-1.5%;
   margin-left:2%;
 }
 .justificado{
@@ -196,6 +208,11 @@
   margin-left:2%;
   width:60px;
   height:40px;
+}
+.valimg{
+  border-radius:50%;
+  width:60px;
+  height:60px;
 }
 
 .btncolor{
@@ -228,7 +245,28 @@
   width:286px;
   height:214px;
 }
+.titulo{
+  font-family: 'Bitter';
+}
 
+.botaomenu{
+  text-align:center;
+ 
+  text-transform: uppercase;
+  font-family:"Righteous" ;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 black;
+  color:black;
+  box-shadow: 0 5px 0 #307397;
+  text-decoration: none;
+  border-radius:10%;
+}
+.botaomenu:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+  text-decoration: none;
+}
 #botaoSubir{
 
   margin-left:93%;
