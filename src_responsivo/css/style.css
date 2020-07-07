@@ -38,7 +38,13 @@
   
   
 }
-
+.audio{
+  
+  margin-top:-150%;
+  margin-left:45%;
+  width:40px;
+  height:40px;
+}
 .rs{
   width:45px;
   height:45px;
