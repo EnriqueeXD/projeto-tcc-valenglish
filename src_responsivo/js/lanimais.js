@@ -1,14 +1,14 @@
-document.getElementsByClassName("audio").addEventListener("click",()=> {
+
   for(var i=1;i<=9;i++){
       let idIcone= "audio"+i;
       let idSom= "en"+i;
-      document.getElementById("icone").addEventListener("click", ()=> 
+      document.getElementById(idIcone).addEventListener("click", ()=> 
       {
-          ouvir(document.getElementById("idSom").innerText);
+          ouvir(document.getElementById(idSom).innerText);
         }
       );
   }
-  })
+
  
   
 
