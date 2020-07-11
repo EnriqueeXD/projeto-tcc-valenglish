@@ -1,41 +1,50 @@
-body{
-  overflow: scroll;
+.navbar1{
+  background-color:#2bffd4;
+  border-style: solid;
+  border-radius: 10px;
+
+};
+
+.textoJustificado{
+  text-align: justify;
+}
+
+.efeitos{
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  font-size:20px;
+  
+}
+.colorcard{
+  background-color:#f0eaea!important;
 }
 .negrito{
   font-weight: bolder;
 }
-.italico{
-  font-style: italic;
-}
-#footer{
-  background-color:#2bffd4;
-  margin:5%;
-  border:solid;
-  border-width:2px;
-  height:350px;
-}
-.marginLeft5{
-  margin-left:1%;
-  bottom:0;
-  width:100%;
-  background-color: black;
-  border: solid black 3px;
 
-  
-    
-}
-.tamanhoMaiorProf{
-  margin-left:3%;
-  border-radius:50%;
-  margin-top:6%;
-  height:200px;
-  width:200px;
-}
-
-hr{
+#mensagemTiaVal{
+ 
   color:black;
+  margin-left:22.5%;
+  margin-top:-17%;
+  border-color:#2bffd4;
+  border-style:solid;
+  width:140px;
+  font-size:14px;
+  text-align:justify;
+  margin-bottom:11.5%;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+  
+  
 }
-
+.audio{
+  
+  margin-top:-150%;
+  margin-left:45%;
+  width:40px;
+  height:40px;
+}
 .rs{
   width:45px;
   height:45px;
@@ -54,383 +63,29 @@ hr{
   margin-top:10%;
   margin-left:3%;
 }
+
 #Si{
   text-shadow: 2px 3px 2px white;
   color: black;
   font-size:22px;
 }
-#dialogo{
-  color:#3684ad;
-  margin-bottom:3%;
-  width:200px;
-  height:240px; 
-}
+
 .alinhamento{
   margin-top:9%;
 }
-#mensagemTiaVal{
- 
-  color:black;
-  margin-left:22.5%;
-  margin-top:-17%;
-  border-color:#2bffd4;
-  border-style:solid;
-  width:140px;
-  font-size:14px;
-  text-align:justify;
-  margin-bottom:11.5%;
-  font-weight: bold;
-  font-family: 'Righteous', cursive;
-  
-  
-}
-.copyright{
-  text-shadow: 0.5px 3px 4px black;
-  color:white;
 
-}
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
- 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-.barra1{
- 
- background-image:url(  "https://img.freepik.com/vetores-gratis/lindo-fundo-aquarela_62951-42.jpg?size=626&ext=jpg");
-  margin-top:2%;
-  margin-left:4.5%;
-  width:1240px;
-  height:60px;
-  border-style: solid;
+#footer{
+  background-color:#2bffd4;
+  margin:5%;
+  border:solid;
   border-width:2px;
-  border-radius:10px;
+  height:350px;
+}
 
-}
-.livroimg{
-  margin-left:2%;
-  width:60px;
-  height:40px;
-}
-.titulo{
-  font-family: 'Bitter', serif;
- font-weight: bolder;
-  font-size:25px;
-  color:white;
-  margin-top:-3.5%;
-  margin-left:16%;
-  text-shadow: 1px 2px 0 black;
-
-}
-.imgval{
-  margin-left:1%;
-  width:50px;
-  height:50px;
-  border-radius:50%;
-
-}
-.btn{
-  
-  text-shadow: 1px 2px 0 black;
-  font-family: arial;
-  font-size: 14px;
-  text-transform:uppercase;
-  font-weight: bolder;
-  border:none;
-  padding: 10px;
-  cursor: pointer;
-  background:white;
-  box-shadow: 0 5px 0 #307397;
-  text-decoration: none;
-}
-.btn:active{
-  position:relative;
-  top:5px;
-  box-shadow:none;
-  text-decoration: none;
-}
-.button{
-  margin-top:-5%;
-  margin-left:70%;
-  text-decoration: none;
-
-}
-.branco{
-   font-family: 'Righteous', cursive;
-  color:white;
-}
-.imgYoutube{
-  
-  width:300px;
-  height:200px;
-  margin-bottom: 3%;
-  border-radius:10%;
-}
-.positionAside{
-  margin-top:-69%;
-  margin-left:74%;
-}
-#tituloImagem{
-  margin-bottom: 4%;
-   text-shadow: 2px 1px 1px black;
-   color:#32b395;
-  font-size:20px;
-  font-weight:bolder;
-  font-style: italic;
-
-}
-.conteudo{
-  margin-top:5%;
-  margin-left:4.5%;
-  width: 68%;
-}
-.livros{
-  width:500px;
-  height:150px;
-}
-.cauroselPosition{
-  margin-left:2%;
- width:800px;
- height:400px;
-  margin-bottom:5%;
-}
-#conteudo{
-  margin-left:4.5%;
-  margin-top:5%;
-  width:62%;
-
-}
-.textoJustificado{
-  text-align: justify;
-}
-.tamanhoIMG{
-  width:800px;
-  height:400px;
-}
-.color{
-  color:black;
-  text-shadow:2px 1px 2px#249177;
-}
-.legenda{
-  font-family: 'Pacifico', cursive;
- 
-  color:#249177;
-  margin-left:2%;
-}
-.uppercase{
-  text-transform: uppercase;
-
-}
-.link{
-   color:#249177;
-}
-.link:hover{
-  cursor:pointer;
-  text-decoration: underline;
-  color:#076070;
-  text-shadow: 0 0 0;
-}
-.efeitos{
-  font-family: 'Righteous', cursive;
-  text-transform: uppercase;
-
-  font-size:20px;
-  
-}
 .bordaRedonda{
   border-radius:10px;
 }
-.visualizacao{
-  font-family: 'Anton', sans-serif;
-}
 
-#assuntos{
-  width: 100px;
-  font-size:22px;
- font-family: 'Anton', sans-serif;
- margin-top:5%;
- margin-left: 8%;
- 
- 
- box-shadow: 0 5px 0 #307397;
-}
-.ltopicos{
-  
-  font-size:20px;
-   font-family: 'Righteous', cursive;
-  margin-left:7%;
-}
-.lcordiv{
-  margin-top:5%;
-  margin-bottom:-2%;
-  margin-left:6%;
-  width:10px;
-  background-color:#2bffd4;
-  border-radius:20px;
-}
-.topicos{
-  
-  font-size:20px;
-   font-family: 'Righteous', cursive;
-  margin-left:9%;
-}
-#sobassuntos{
-  width: 150px;
-  margin-top:-1%;
-  color: white;
-  margin-left: 8%;
-  box-shadow: 0 5px 0 #307397;
-  margin-bottom:5%;
-}
-.visibilidade{
-
-  visibility: hidden;
-}
-.cordiv{
-
-  margin-bottom:-2%;
-  margin-left:8%;
-  width:10px;
-  background-color:#2bffd4;
-  border-radius:20px;
-}
-
-.lcard1{
- 
-  margin-left:8%;
-}
-
-.card1{
-  
-  margin-left:9%;
-}
-.lcard2{
-   margin-top:-22.9%;
-   margin-left:39%;
-}
-.card2{
-  margin-top:-28.6%;
-   margin-left:39%;
-}
-.lcard31{
-   margin-top:-24.6%;
-    margin-left:69%;
-    margin-bottom:2%;
-
-}
-.lcard3{
-   margin-top:-22.9%;
-    margin-left:69%;
-}
-.card3{
-  margin-top:-28.6%;
-   margin-left:69%;
-}
-.btncolor{
-  border-style:solid;
-  margin-top:-12%;
-  margin-left:78%;
-  border-radius:2px;
-  font-family: 'Righteous', cursive;
-  text-align:center;
-  
-  height:30px;
-   color: #923ff1;
-  width: 60px;
-  background-color:#2bffd4;
-  
-  
-}
-.center{
-  text-align:center;
-}
-.justificado{
-  text-align:justify;
-}
-.position1{
-  
-  margin-left:5%;
-  margin-top:5%;
-}
-.btncolor:hover{
-  color:#2bffd4;
- background-color: #992bff;
- 
-}
-.limgnova{
-  width:50px;
-  height:180px;
-}
-.imgnova{
-  width:100px;
-  height:180px;
-}
-#botaoSubir{
-
- margin-left:93%;
- width:50px;
- height:50px;
-  border-radius:50%;
-background-color: #2bffd4;
-}
-.imgSubir{
-  
-margin:6%;
- width:40px;
- height:40px;
-}
-.baseFiguras{
-  border-style:solid;
-  margin-top:5%;
-  width:800px;
-  height:400px;
-  margin-left:4.5%;
-  background-color: #2bffd4;
-  border-radius:10px;
-  
-}
 .imagemClasseVal{
   
   border-radius:50%;
@@ -457,7 +112,7 @@ margin:6%;
 }
 .msgVal{
    margin-top:-16.5%;
-  margin-left:24%;
+  margin-left:32%;
   font-size:14px;
   font-family: 'Righteous', cursive;
   width:165px;
@@ -471,73 +126,177 @@ margin:6%;
   height:215px;
  
 }
-.audio{
+
+#dialogo{
+  color:#3684ad;
+  margin-bottom:3%;
+  width:200px;
+  height:240px; 
+}
+
+.marginLeft5{
+
+  width:100%;
+  background-color: black;
+}
+
+.italico{
+  font-style: italic;
+  color: white;
+}
+
+.alinhamento{
+  margin-top:9%;
+}
+
+.copyright{
+  text-shadow: 0.5px 3px 4px black;
+  color:white;
+
+}
+
+.colorl {
+  color: white;
+}
+
+
+#sobassuntos{
+  width: 150px;
+  margin-top:-1%;
+  color: white;
+  box-shadow: 0 5px 0 #307397;
+  margin-bottom:5%;
+}
+
+.visibilidade{
+
   visibility: hidden;
-  margin-top:-150%;
-  margin-left:45%;
-  width:40px;
+}
+
+#assuntos{
+  width: 100px;
+  font-size:22px;
+ font-family: 'Anton', sans-serif;
+ margin-top:5%;
+ box-shadow: 0 5px 0 #307397;
+}
+
+.cordiv{
+  margin-bottom:-2%;
+  width:10px;
+  background-color:#2bffd4;
+  border-radius:20px;
+}
+.lcordiv{
+  margin-top:4%;
+  margin-bottom:-2%;
+  width:10px;
+  background-color:#2bffd4;
+  border-radius:20px;
+}
+
+.topicos{
+  
+  font-size:20px;
+  font-family: 'Righteous', cursive;
+  margin-left:2%;
+}
+.ltopicos{
+  
+  font-size:20px;
+  font-family: 'Righteous', cursive;
+  margin-top:-1.5%;
+  margin-left:2%;
+}
+.justificado{
+  text-align:justify;
+}
+
+.livroimg{
+  margin-left:2%;
+  width:60px;
   height:40px;
 }
-.colorLegenda{
-  color:black;
-}
-.imgval2{
-  margin-top:5%;
-  margin-left:7%;
+.valimg{
   border-radius:50%;
-  width:200px;
-  height:200px;
+  width:60px;
+  height:60px;
 }
-.alignnone{
 
-
-
-border: 6px solid #2bffd4;
-}
-.btnVal{
-  cursor:pointer;
- margin-top:-2%;
- margin-bottom:2%;
-  background-color: #2bffd4;
-  
-  text-align:center;
-  font-size:30px;
-  width:170px;
-  height:50px;
-  
-  border: 6px solid black;
-  border-radius:7px;
-  margin-left:75%;
-  font-family: 'Righteous', cursive;
-}
-.like:active{
-  background-color: #2bffd4;
-}
-.btncolor2{
- 
-  border-color:#2bffd4;
+.btncolor{
   border-style:solid;
+  margin-top:-12%;
+  margin-left:78%;
   border-radius:2px;
-  font-family:"Righteous";
+  font-family: 'Righteous', cursive;
+  text-align:center;
   height:30px;
+  color: #923ff1;
   width: 60px;
-  color:#992bff;
   background-color:#2bffd4;
-  
-  
+  text-decoration: none;
 }
-.btncolor2:hover{
-  cursor:pointer;
-  border-color:#992bff;
- background-color: #992bff;
- color:#2bffd4;
+.center{
+  text-align:center;
+}
+.btncolor:hover{
+
+  color: #2bffd4;
+  width: 60px;
+  background-color:#923ff1;
+  
 }
 
-#hablar{
-  height:38px;
+.card2{
+  margin-top:-37.8%;
+  margin-left:35%;
+  background-color: silver;
 }
-#divinput{
-  margin-top:-4.5%;
-  margin-left:40%;
-  width:400px;
+
+.card3{
+  margin-top:-37.8%;
+  background-color: silver;
+  margin-left:70%;
 }
+
+.imgnova{
+  width:286px;
+  height:214px;
+}
+.titulo{
+  font-family: 'Bitter';
+}
+
+.botaomenu{
+  text-align:center;
+ 
+  text-transform: uppercase;
+  font-family:"Righteous" ;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 black;
+  color:black;
+  box-shadow: 0 5px 0 #307397;
+  text-decoration: none;
+  border-radius:10%;
+}
+.botaomenu:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+  text-decoration: none;
+}
+#botaoSubir{
+
+  margin-left:93%;
+  width:50px;
+  height:50px;
+ border-radius:50%;
+ background-color: #2bffd4;
+ }
+
+ .imgSubir{
+  
+  margin:6%;
+   width:40px;
+   height:40px;
+  }
