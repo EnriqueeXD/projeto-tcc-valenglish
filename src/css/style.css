@@ -39,11 +39,18 @@
   
 }
 .audio{
-  
-  margin-top:-150%;
-  margin-left:45%;
+  border-color:black!important;
+  cursor:pointer;
+  background-color:white;
+  border-radius:50%;
+  margin-top:-160%;
+  margin-left:42.5%;
   width:40px;
   height:40px;
+}
+.audio:hover{
+  filter: opacity(78%);
+  transition: all 1s linear;
 }
 .rs{
   width:45px;
@@ -300,3 +307,4 @@
    width:40px;
    height:40px;
   }
+ 
