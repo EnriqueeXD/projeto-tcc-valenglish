@@ -174,6 +174,13 @@
   box-shadow: 0 5px 0 #307397;
   margin-bottom:5%;
 }
+#sobassuntosc{
+  width: 220px;
+  margin-top:-1%;
+  color: white;
+  box-shadow: 0 5px 0 #307397;
+  margin-bottom:5%;
+}
 
 .visibilidade{
 
@@ -185,6 +192,13 @@
   font-size:22px;
  font-family: 'Anton', sans-serif;
  margin-top:5%;
+ box-shadow: 0 5px 0 #307397;
+}
+#assuntosc{
+  width: 200px;
+  font-size:22px;
+ font-family: 'Anton', sans-serif;
+ margin-top:1%;
  box-shadow: 0 5px 0 #307397;
 }
 
@@ -307,4 +321,50 @@
    width:40px;
    height:40px;
   }
+ .atenção{
+   width:3%;
+   height:3%;
+ }
+ .imagem{
+   height:17.5em!important;
+ }
+ .carrosselc{
+   margin-left:30%;
+   width:450px!important;
+   height:450px!important;
+ }
+ .cardl{
+   margin-left:16%;
+ }
+ .cardr{
+  margin-left:19%;
+ }
+ .lcard1{
+  cursor: pointer!important;
+}
+.lcard2{
+  cursor: pointer!important;
+}
+.lcard3{
+  cursor: pointer!important;
+}
+.lcard4{
+  cursor: pointer!important;
+}
+.lcard5{
+  cursor: pointer!important;
+}
+.lcard6{
+  cursor: pointer!important;
+}
+.lcard7{
+  cursor: pointer!important;
+}
+.lcard8{
+  cursor: pointer!important;
+}
+.lcard9{
+  cursor: pointer!important;
+}
+ 
  

@@ -1,13 +1,18 @@
 
+
   for(var i=1;i<=9;i++){
-    let idIcone= "audio"+i;
-    let idSom= "en"+i;
-    document.getElementById(idIcone).addEventListener("click", ()=> 
-    {
-        ouvir(document.getElementById(idSom).innerText);
-      }
-    );
-}
+    
+    const buttom_container= document.getElementsByClassName(`lcard${i}`)[0];
+    const idSom= "en"+i;
+    console.log(buttom_container);
+    buttom_container.addEventListener("click", ()=>{
+     
+      ouvir(document.getElementById(idSom).innerText);
+      console.log(document.getElementById(idSom), idSom);
+    }
+    )
+  }
+
 
 
 
