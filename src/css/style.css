@@ -21,7 +21,13 @@
 .negrito{
   font-weight: bolder;
 }
-
+.tamanhofixo{
+  height:445px;
+}
+.tamanholetra{
+  font-size: 19px;;
+  text-align:justify;
+}
 #mensagemTiaVal{
  
   color:black;
@@ -47,10 +53,11 @@
   margin-left:42.5%;
   width:40px;
   height:40px;
+  filter: brightness(100%);
 }
 .audio:hover{
   filter: opacity(78%);
-  transition: all 1s linear;
+  transition: all 0.6s linear;
 }
 .rs{
   width:45px;
@@ -283,6 +290,62 @@
 .imgnova{
   width:286px;
   height:214px;
+
+}
+.imgnova1{
+  width:286px!important;
+  height:214px!important;
+
+}
+.imgnova:hover{
+  width:286px;
+  height:214px;
+  filter: brightness(83%);
+}
+#cardamarelo{
+  width:286px;
+  height:214px;
+  background-color:#fff203;
+}
+#cardazul{
+  width:286px;
+  height:214px;
+  background-color:rgb(88, 88, 219);
+}
+#cardcinza{
+  width:286px;
+  height:214px;
+  background-color:rgb(185, 184, 184);
+}
+#cardroxo{
+  width:286px;
+  height:214px;
+  background-color:rgb(134, 49, 134);
+}
+#cardverde{
+  width:286px;
+  height:214px;
+  background-color:rgb(67, 211, 67);
+}
+#cardrosa{
+  width:286px;
+  height:214px;
+  background-color:rgb(255, 108, 132);
+}
+#cardvermelho{
+  width:286px;
+  height:214px;
+  background-color:rgb(245, 83, 83);
+}
+#cardlaranja{
+  width:286px;
+  height:214px;
+  background-color:#fa8900;
+}
+#cardpreto{
+  width:286px;
+  height:214px;
+  background-color:rgba(0, 0, 0, 0.89);
 }
 .titulo{
   font-family: 'Bitter';
@@ -367,4 +430,60 @@
   cursor: pointer!important;
 }
  
- 
+.w-100{
+  width:1150px!important;
+  height:800px!important;
+}
+.w-101{
+  width: 100%!important;
+    height: 450px;
+}
+
+
+
+#cardamarelo:hover{
+  width:286px;
+  height:214px;
+  
+  background-color:yellow;
+}
+#cardroxo:hover{
+  width:286px;
+  height:214px;
+  background-color:rgb(129, 1, 129);
+}
+#cardverde:hover{
+  width:286px;
+  height:214px;
+  background-color:rgb(7, 216, 7);
+}
+#cardrosa:hover{
+  width:286px;
+  height:214px;
+  background-color:rgb(248, 42, 76);
+}
+#cardazul:hover{
+  width:286px;
+  height:214px;
+  background-color:rgb(33, 33, 248);
+}
+#cardvermelho:hover{
+  width:286px;
+  height:214px;
+  background-color:rgb(255, 19, 19);
+}
+#cardlaranja:hover{
+  width:286px;
+  height:214px;
+  background-color: #fa5700;
+}
+#cardpreto:hover{
+  width:286px;
+  height:214px;
+  background-color:black;
+}
+#cardcinza:hover{
+  width:286px;
+  height:214px;
+  background-color:gray;
+}

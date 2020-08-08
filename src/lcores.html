@@ -56,8 +56,8 @@
       <div class="lcordiv" ><span class="visibilidade">Olá</span></div><p class="ltopicos">Cores</p>
         <div class="row">
         <div class="col">
-        <div class="lcard1" style="width: 18rem;">
-        <img class="card-img-top imgnova" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX//wCKxvRFAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC" alt="Imagem de capa do card">
+        <div   style="width: 18rem;">
+        <div class="lcard1" id="cardamarelo"></div>
         <div class="card-body">
          
           <p class="card-text justificado pacifico">
@@ -80,8 +80,8 @@
       </div>
       </div> 
       <div class="col">
-      <div class="lcard2" style="width: 18rem;">
-        <img class="card-img-top imgnova" src="https://definicao.net/wp-content/uploads/2019/05/roxo-3.jpg" alt="Imagem de capa do card">
+      <div  style="width: 18rem;">
+        <div class="lcard2" id="cardroxo"></div>
         <div class="card-body">
           
           
@@ -103,8 +103,8 @@
       </div>
       </div>
       <div class="col">
-      <div class="lcard3" style="width: 18rem;">
-        <img class="card-img-top imgnova" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNDQgICAgHBwcHCA0HBwcHBw8IDQcNFREWFhURExMYHSggGBoxGxMTLTEhPSkrNi4uFx8zODMsNyg5OisBCgoKDQ0NDw0NDysZFRkrNzcrKysrKysrLS0rLTcrKystKystKysrKysrKysrKysrLSsrKystKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAGBABAQEBAQAAAAAAAAAAAAAAAAFh8BH/xAAYAQEBAAMAAAAAAAAAAAAAAAAAAQIEBv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A6kio13OEVAFEBFEUBAAVABUAUEBQQFAFARBUAQBQBAFEAUEVVQEQVJ2KoAAgCCoAKgAKiggAKIKoAiAACooogCACCoCgAAAAqAAAAAAAAAAAoAIAIACgACoqAAIACgCggAAAAAAAAAACAqKogAACAAAqCgAAAgAKAKCCoAAAAAAgAKACAAoAIAAAAAAAUAAAURkoAiAAAAAAACAAoAAAgKAAAAAAABQAAEFQFAAAAAAAAAAAAABAAUAEAAAAAEAVFUAAAAAAAAAAEVAUEBRFAAAAAAAAAAASqgEVFAAQAFAAAAAAEAAAAVAFAAAAAAAARUAFRAVFUAAAQFEUBQUSgIIKUEBERQFBUBVEUABQIAAqVARUAiooCp5tFEARBUUVQFVABABBKioIoAKlUFRUUBUFABBUABFqAKkUFAUZARFAVVEUEAQEVARYAgoCgAAAAICiAKAAgAsEigoimqgAgKKIAAAglFQCKAAICgAAAAAgoAAAipQCBAUAAFUEVAAEAAAABBKCiKIoiigoogCAAAAAlVARUWIgKKooKCVQEAQAAAARmgJVhAQVQWKoCiKAJQAIAggAIQERoAV//9k=" alt="Imagem de capa do card">
+      <div style="width: 18rem;">
+        <div class="lcard3" id="cardverde"></div>
         <div class="card-body">
           
          
@@ -125,8 +125,8 @@
       </div>
       </div>
       <div class="row">
-          <div class="col"><div class="lcard4" style="width: 18rem;">
-            <img class="card-img-top imgnova" src="data:image/jpeg;base64,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" alt="Imagem de capa do card">
+          <div class="col"><div style="width: 18rem;">
+            <div class="lcard4" id="cardrosa"></div>
             <div class="card-body">
              
               <p class="card-text justificado pacifico">
@@ -148,8 +148,8 @@
         
           
           <div class="col">
-            <div class="lcard5" style="width: 18rem;">
-                <img class="card-img-top imgnova" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFxUVFRUVFxUVFRcXFRUXFhUVFxcYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8PFS0ZFRktLS0rLS0tLSstLS0tLSstLS0tLS0tLSs3LS0tLS03LTctLTc3LS0tLSs3LTctLS03K//AABEIAL4BCgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIG/8QAHRABAQEAAgIDAAAAAAAAAAAAAAEREiECUWFx4f/EABYBAQEBAAAAAAAAAAAAAAAAAAABBv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOUqLUatkyFIALC/iKBapgFKuIghKCioqVA0IoJVRQQMAW0qLoFTFQDViAKi6kgC1CgCoAuovKelEKCAACotSqFWoRAoEBRKUFKAIQICkAEABSQNURSogBSAqEAWFEAgqRRahF5UEq1ABUKBVQiC0hUqhQtWwEWIILqQKCoAKi1AAFBZUXAAqIFVFiiKgC1FRBSIAtTCxQQgVQFSoLIkWpVAUxBKpRRFlSroCKlQFiEUBUQFQUUiKBUWogBgAAoUCoKlXSKC9syGgBCACoCxFTAAqgkNFwENWoCxABYYgAUAAEAlUUBNUEIoggqARaICgkUNayJiYBAggAoIqCgRUAWkMBFiUQVDQAgQCgKAQQAVQkCQAEqoIpoAioAauIBV1F6UIESAAqAiooVUMAqoIKhVBAKoQVEBUVRAAAXAQVEAKRQXCgFKVEFBFFZ1V5fAJBUQCgBVQApBVEBaBUwVBCgoqCggtRACCgsRUAKkAKACiAtKFAIhQVOJYaAtQqipAoBFqUBdQiCmpBRSJRAgQABQQFBCAAuoSguIqAaShgKmAoqKiAVUgFa2sxdUEgoCQAFEiBRUUAKCpAQVBQRUKoVUWRASEXFAQACiCoAApgCLUoKRAFtTCr2oJFkRBSIQClVIoKiggsNARdRAUSKAsARUUBCAAq4CAICAAQFFtRUqCxIuIoQ0tXj9AGHkkQBUBaYlVQRVBLEW+ioCC+KiUUwEKAClSgKRAUi4lAtKVMQUxNVQRQEhSraBCCRBUNawH//Z" alt="Imagem de capa do card">
+            <div style="width: 18rem;">
+              <div class="lcard5" id="cardazul"></div>
                 <div class="card-body">
                   
                   
@@ -172,8 +172,8 @@
           
           
           <div class="col">
-            <div class="lcard6" style="width: 18rem;">
-                <img class="card-img-top imgnova" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX+AAAYIGMAAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC" alt="Imagem de capa do card">
+            <div  style="width: 18rem;">
+              <div class="lcard6" id="cardvermelho"></div>
                 <div class="card-body">
                   
                  
@@ -198,8 +198,8 @@
       
       <div class="row">
           <div class="col">
-              <div class="lcard7" style="width: 18rem;">
-            <img class="card-img-top imgnova" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwoHBwgHBw0PBwcHCAoHBwcHCA8ICQcKFREWFiARHx8YHCggGBolGx8fITEhMSkrLi4uFx8zODMsNygtLisBCgoKCw0NFQ0FEisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQX/xAAVEAEBAAAAAAAAAAAAAAAAAAAAAf/EABYBAQEBAAAAAAAAAAAAAAAAAAAHBv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANoFTht0AAFAQFBAUAAEFARQBFAEFAQUBBQEFAQUBAUEiooIqKAigIqACgAAAAAAAACAAAAAAAAAAAAKigigAAAAAAAAAAAAAACAAAAAAAAAAAAKigigAigIoAigAIoAAAigAAgAAAAAAAAAAACoAogCgACKAAAAAAAAAACAACoAAAKgAAAoCAAqACiKAAAAAIAogCiAKIAAAAAAAAAAACgICggAKAAIoAiggoCKACKAgoCAoIKgAAAoCAAoAIACoAKIoAAAAAgCiKACAogAAAAAAAAAAACggKCAAKAAigCKCCgIKAgoCCgIAAKgAAAoCAAoAIACiAAKCCgCKgAAAAAAAAKIAogCiAKIAogCiAAAAoCAAqAAAAAAAAAAAAqKAioAACggAAKACAAogACggqACoAAAAAAAAAqAKIAogCiAKgAogAAAKgAAKgAAAAAAAAAAAAAqKgAAKioAAAoAgAKioAAAAAAAAAAAAAAAoAIoCCgCKAIoAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z" alt="Imagem de capa do card">
+              <div  style="width: 18rem;">
+                <div class="lcard7" id="cardlaranja"></div>
             <div class="card-body">
              
               <p class="card-text justificado pacifico">
@@ -219,8 +219,8 @@
           </div>
         </div>
 
-          <div class="col"><div class="lcard8" style="width: 18rem;">
-            <img class="card-img-top imgnova" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAAAA1BMVEUAAACnej3aAAAASElEQVR4nO3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsXcAAGLPH6gAAAAAElFTkSuQmCC" alt="Imagem de capa do card">
+          <div class="col"><div   style="width: 18rem;">
+            <div class="lcard8" id="cardpreto"></div>
             <div class="card-body">
               
               
@@ -243,8 +243,8 @@
           
           
           <div class="col">
-              <div class="lcard9" style="width: 18rem;">
-            <img class="card-img-top imgnova" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQcAAADACAMAAAA+71YtAAAAA1BMVEWxsbPMUNQyAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+BsYAAAF7hZJ0AAAAAElFTkSuQmCC">
+              <div   style="width: 18rem;">
+                <div class="lcard9" id="cardcinza"></div>
             <div class="card-body">
               
              
